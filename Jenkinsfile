@@ -107,21 +107,4 @@ pipeline {
             }
         }
     }
-    post {
-        always {
-            publishHTML(target: [
-                reportName: 'Trivy Image Security Report',
-                reportDir: '.',
-                reportFiles: 'trivy-report.html',
-                alwaysLinkToLastBuild: true
-            ])
-
-            publishHTML(target: [
-                reportName: 'OWASP ZAP DAST Report',
-                reportDir: 'zap_reports',
-                reportFiles: 'zap_report.html',
-                alwaysLinkToLastBuild: true
-            ])
-        }
-    }
 }
