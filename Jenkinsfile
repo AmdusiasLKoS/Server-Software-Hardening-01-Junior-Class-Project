@@ -185,7 +185,7 @@ pipeline {
            DEPLOYMENT — MUST ALWAYS RUN
         -------------------------------------------------------------------*/
         stage('DEPLOYMENT') {
-            agent { label 'CYBR3120-01-app-server' }
+            agent { label 'Final-Agent' }
             steps {
                 script {
                     echo "Deploying using docker-compose..."
