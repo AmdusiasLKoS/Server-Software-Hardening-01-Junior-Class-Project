@@ -7,6 +7,14 @@ pipeline {
         DOCKERHUB_CREDENTIALS = 'docker-id'
         IMAGE_NAME ='tommy6769/final-project:latest'
         SNYK_TOKEN = 'Snyk-API-Token-Credential-CC'
+      
+        TRIVY_SEVERITY = "HIGH,CRITICAL"
+
+        TARGET_URL = "http://172.238.185.189/" - appserver 
+        REPORT_HTML = "zap_report.html"
+        REPORT_JSON = "zap_report.json"
+        ZAP_IMAGE = "ghcr.io/zaproxy/zaproxy:stable"
+        REPORT_DIR = "${env.WORKSPACE}/zap_reports"
     }
 
     stages {
