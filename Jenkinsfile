@@ -1,5 +1,6 @@
 pipeline {
-    agent any
+    agent {
+        label 'Final-Agent' }
 
     environment {
         DOCKERHUB_CREDENTIALS = 'docker-id'
