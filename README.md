@@ -1,5 +1,5 @@
 # Node-JS-QR-Code-Generator
-# AI-generated READ-ME, reviewed and edited by me. I liked the style, so I decided to keep the structure. Cheers and enjoy.
+# AI-generated README, reviewed and edited by me. I liked the style, so I decided to keep the structure. Cheers and enjoy.
 # Server Software Hardening – Junior Class Project
 > ⚠️ This is a learning project. It is **not** production-grade security, but a demonstration of tools and concepts.
 This repository contains a junior–level class project focused on **hardening the infrastructure and surrounding services** for a Node.js web application.
@@ -83,5 +83,5 @@ Some of the hardening / security practices explored in this project:
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/Server-Software-Hardening-01-Junior-Class-Project.git
+git clone https://github.com/AmdusiasLKoS/Server-Software-Hardening-01-Junior-Class-Project.git
 cd Server-Software-Hardening-01-Junior-Class-Project
